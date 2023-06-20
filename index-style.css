@@ -1,0 +1,255 @@
+ *{
+   padding:0;
+   margin:0;
+ }
+.main{
+  height: 100px;
+  width: 100%;
+
+}
+
+.logo{
+  height: 100px;
+  width:100px;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+}
+
+
+.nav ul li{
+  display: inline-block;
+  padding: 60px 50px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+.nav ul li a:hover{
+  color:tomato
+}
+
+
+.headings{
+  position: absolute;
+  bottom:400px;
+  left:150px;
+
+}
+
+.headings h1{
+  font-size: 90px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.headings h2{
+  color:white;
+  cursor: pointer;
+}
+
+.headings h1:hover{
+  color:red;
+}
+
+.headings h2:hover{
+  color:greenyellow;
+}
+
+
+.video-p{
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom:0;
+  width: 100%;
+  height:auto;
+ }
+
+.services-div{
+  margin-top:700px;
+  padding:60px;
+  /* border:2px solid red; */
+  text-align: center;
+  
+}
+
+ .services-div h1{
+  font-size: 40px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+
+ .service-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+      
+ }
+
+.box{
+  border:2px solid black;
+  border-radius: 10px;
+  padding: 50px 50px;
+  margin:80px 50px;
+  height:300px;
+  width:250px;
+  box-shadow: 10px 10px 15px rgba(243,16,16,.5);
+  background-color:#001529;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.box h3{
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+}
+ 
+.box p{
+  font-size: 20px;
+  text-align: left;
+}
+  
+.box:hover{
+  transition-duration: 0.8s;
+  transform: scale(1.1);
+  box-shadow: none;
+}
+
+.abt-us{
+  height: 200px;
+  /* border:2px solid red; */
+  padding:100px;
+  background-color:#001529;
+  color: white;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.who-we{
+  /* height: 500px; */
+  width: 400px;
+  margin-top: 100px;
+  margin-left: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* margin-left: 90px; */
+  /* margin-top: 70px; */
+  /* font-size: 20px; */
+} 
+
+.parent-we{
+  display: flex;
+  height: 700px;
+  
+}
+.who-we h1{
+  font-size: 60px;
+}
+
+.who-we p{
+  font-size: 20px;
+}
+
+.footer{
+  height: 180px;
+  /* border: 3px solid red; */
+  /* display: flex; */
+  background-color: #001529;
+  color: white;
+  margin-top: 20px;
+}
+.footer ul{
+  list-style: none;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  justify-content:center;
+}
+.footer ul li{
+  padding-left: 15px;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 20px;
+}
+
+.footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+
+.image-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.image-div img{
+  height: 20px;
+  width: 20px;
+  padding-left: 15px;
+}
+
+.box img{
+  height: 50px;
+  width: 50px;
+  margin-left:90px;
+  /* box-shadow: 7px 4px 4px 7px red; */
+}
+
+
+.copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.near-we{ 
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  width: 600px;
+  /* padding-left: 20px; */
+  /* justify-content: space-evenly; */
+  /* flex-direction: column; */
+  /* border: 3px solid red; */
+  margin-left: 400px;
+}
+
+.small-blocks{
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* border: 3px solid red; */
+  background-color: rgb(244, 244, 244);
+  border-radius: 10px;
+  padding: 30px;
+  margin-left: 50px;
+  margin-top: 70px;
+  height: 170px;
+  width: 170px;
+}
+
+.small-blocks:hover{
+  box-shadow: 3px 3px 10px 5px rgb(92, 92, 255);
+  transition-duration:0.5s;
+  transform: scale(1.1);
+}
